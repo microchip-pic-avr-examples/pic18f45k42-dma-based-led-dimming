@@ -2,29 +2,29 @@
     "metaDataVersion": "1.0.0",
     "category": "com.microchip.ide.project",
     "content": {
-        "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.",
+        "metaDataVersion": "1.3.0",
+        "name": "com.microchip.mcu8.mplabx.project.pic18f45k42-dma-based-led-dimming",
         "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "displayName": "DMA-based LED dimming",
+        "projectName": "pic18f45k42-dma-based-led-dimming",
+        "shortDescription": "DMA-based LED dimming with PIC18F45K42",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "MPLAB X",
+            "semverRange": ">=5.15.0"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "XC8",
+				"semverRange": "^2.10.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC18F-K_DFP",
+            "semverRange": "^1.0.53"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=3.75.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,26 +32,16 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "PIC18F45K42",
                 "versionRange": "*"
             }
         },
         "author": "",
-        "subcategories": [
-            "",
-            [
-               "Peripherals", ""
-            ],
-            [
-               "Peripherals", ""
-            ]            			
-        ],
         "peripherals": [
-            "",""
+            "PWM","DMA","ADCC","TMR"
         ],
         "keywords": [
-            "",
-            ""			
+            "LED"  		
         ],
 		"additionalData": {
 			"longDescription": {
